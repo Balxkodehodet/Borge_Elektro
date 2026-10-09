@@ -5,17 +5,31 @@
 }
 .layout-landingpage
 {
+  flex-wrap:wrap;
   background-color: #013af5;
   min-width: 100vw;
 }
-.app
+.content
 {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app, .kontakt-page, .om-oss-page, .tjenester-page
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #babbbb;
   text-align: center;
   color: #0e0101;
   font-family: Arial, sans-serif;
   padding: 20px;
   flex-wrap:wrap;
+  height: 100vh;
+  width: 100vw;
+
 }
 .logo
 {
@@ -27,12 +41,20 @@
   border-radius: 20px;
   border: 2px solid #020708;
 }
+.electrician
+{
+  margin-left:450px;
+  margin-top: 5px;
+  width: 400px;
+  height: 200px;
+}
 .navigation
 {
   display: flex;
   justify-content:space-around;
   align-items: center;
   padding: 10px;
+  flex-wrap:wrap;
 }
 .navigation a li
 {
@@ -49,4 +71,24 @@
 {
   text-decoration: none;
   color: #333;
+}
+
+@media (max-width: 768px) {
+ .logo
+{
+  margin-left:5px;
+  margin-top: 5px;
+  width: 150px;
+  height: 100px;
+  background-color:#00a1dc;
+  border-radius: 20px;
+  border: 2px solid #020708;
+}
+.electrician
+{
+  margin-left:5px;
+  margin-top: 5px;
+  width: 150px;
+  height: 100px;
+}
 }

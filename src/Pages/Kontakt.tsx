@@ -1,6 +1,6 @@
-export default function kontakt() {
+export default function Kontakt() {
     return (
-        <div>
+        <div className="kontakt-page">
             <h1>Kontakt oss</h1>
             <p>Her kan du kontakte oss for spørsmål eller forespørsler.</p>
             <form>

@@ -6,6 +6,7 @@ import LayoutLandingpage from './Components/LayoutLandingpage.tsx'
 import App from './App.tsx'
 import Kontakt from './Pages/Kontakt.tsx'
 import OmOss from './Pages/OmOss.tsx'
+import Tjenester from './Pages/Tjenester.tsx'
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
       { index: true, element: <App /> },
       { path: '/kontakt', element: <Kontakt /> },
       { path: '/om-oss', element: <OmOss/> },
+      { path: '/tjenester', element: <Tjenester/>}
     ]
 
   },   

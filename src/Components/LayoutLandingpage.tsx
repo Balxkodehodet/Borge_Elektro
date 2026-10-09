@@ -1,5 +1,6 @@
 import {Link, Outlet} from 'react-router-dom';
 import borge_elektro_img from '../assets/borge_elektro_img.png';
+import electrician from '../assets/electrician.jpg';
 import '../App.css'
 
 export default function LayoutLandingpage() {
