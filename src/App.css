@@ -47,6 +47,8 @@
   margin-top: 5px;
   width: 400px;
   height: 200px;
+  border-radius: 20px;
+  border: 2px solid #020708;
 }
 .navigation
 {
@@ -90,5 +92,7 @@
   margin-top: 5px;
   width: 150px;
   height: 100px;
+  border-radius: 20px;
+  border: 2px solid #020708;
 }
 }
