@@ -19,7 +19,7 @@
 .layout-landingpage
 {
   flex-wrap:wrap;
-  background-color: #fafbfc;
+  background-color: #6fb7ff;
   min-width: 100vw;
 }
 .electrician-container
@@ -101,6 +101,7 @@ form input, form button
   padding: 10px;
   background-color: #00c1fc;
   border-radius: 5px;
+  border: 2px black solid
 }
 .navigation a li:hover
 {

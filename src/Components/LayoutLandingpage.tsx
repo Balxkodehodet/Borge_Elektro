@@ -22,8 +22,8 @@ export default function LayoutLandingpage(): React.JSX.Element {
       <div className="electrician-container">
         <img src={electrician} alt="Electrician" className="electrician" />
       </div>
-    </main>
     <Outlet />
+    </main>
     <footer className="footer">
       <p>&copy; 2026 Borge Elektro AS. Alle rettigheter reservert.</p>
     </footer>
