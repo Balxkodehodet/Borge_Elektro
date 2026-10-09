@@ -3,6 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+.bil
+{
+  width: 100vw;
+  height:10%;
+}
+.bilder-container
+{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
 .layout-landingpage
 {
   flex-wrap:wrap;

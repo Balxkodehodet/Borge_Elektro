@@ -2,12 +2,16 @@ import {Link, Outlet} from 'react-router-dom';
 import borge_elektro_img from '../assets/borge_elektro_img.png';
 import electrician from '../assets/electrician.jpg';
 import '../App.css'
+import borge_elektro_bil from "../assets/borge_elektro_bil.png"
 
 export default function LayoutLandingpage(): React.JSX.Element {
   return (
     <>
     <header className="layout-landingpage">
+      <div className="bilder-container">
+      <img src={borge_elektro_bil} alt="Borge elektro Bil" className="bil" />
       <img src={borge_elektro_img} alt="Borge Elektro Logo" className="logo" />
+      </div>
       <ul className="navigation">
         <Link to="/"><li>Hjem</li></Link>
         <Link to="/om-oss"><li>Om oss</li></Link>
