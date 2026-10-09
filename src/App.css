@@ -11,8 +11,6 @@
 }
 .bilder-container
 {
-  display: flex;
-  flex-direction: column;
   justify-content:center;
   height:60vh;
 }
@@ -121,10 +119,17 @@ form input, form button
   text-align: center;
 }
 @media (max-width: 768px) {
+.bilder-container
+{
+  margin:0px;
+  height:auto;
+} 
+
 .bil
 {
+  margin-top:0px;
   width: 100vw;
-  height:30%;
+  height:150px;
 }
  .logo
 {
