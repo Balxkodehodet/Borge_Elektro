@@ -8,6 +8,15 @@
   background-color: #013af5;
   min-width: 100vw;
 }
+.app
+{
+  background-color: #babbbb;
+  text-align: center;
+  color: #0e0101;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  flex-wrap:wrap;
+}
 .logo
 {
   margin-left:450px;
