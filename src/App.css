@@ -5,8 +5,8 @@
 }
 .bil
 {
-  margin-left:180px;
-  width: 85vw;
+  margin-left:0px;
+  width: 100vw;
   height:100%;
 }
 .bilder-container
@@ -14,12 +14,12 @@
   display: flex;
   flex-direction: column;
   justify-content:center;
-  height:50vh;
+  height:60vh;
 }
 .layout-landingpage
 {
   flex-wrap:wrap;
-  background-color: #013af5;
+  background-color: #fafbfc;
   min-width: 100vw;
 }
 .electrician-container
@@ -87,8 +87,16 @@ form input, form button
   flex-wrap:wrap;
   margin:10px;
 }
+.lyn
+{
+  height:25px;
+}
 .navigation a li
 {
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
   list-style: none;
   padding: 10px;
   background-color: #00c1fc;
@@ -115,7 +123,7 @@ form input, form button
 .bil
 {
   width: 100vw;
-  height:50%;
+  height:70%;
 }
  .logo
 {
