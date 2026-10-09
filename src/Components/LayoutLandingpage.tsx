@@ -16,8 +16,14 @@ export default function LayoutLandingpage() {
       </ul>
     </header>
     <main>
-      <Outlet />
+      <div className="electrician-container">
+        <img src={electrician} alt="Electrician" className="electrician" />
+      </div>
     </main>
+    <Outlet />
+    <footer className="footer">
+      <p>&copy; 2026 Borge Elektro AS. Alle rettigheter reservert.</p>
+    </footer>
     </>
   );
 }

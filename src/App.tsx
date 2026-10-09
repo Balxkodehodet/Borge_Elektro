@@ -12,9 +12,6 @@ function App() {
       <p>Vi tilbyr tjenester for både privatpersoner og bedrifter, og vi er stolte av å kunne tilby skreddersydde løsninger som passer til hver enkelt kundes behov. Enten du trenger hjelp med en enkel installasjon eller et større prosjekt, kan du stole på at Borge Elektro AS vil levere profesjonelle resultater.</p>
       <p>Kontakt oss i dag for å lære mer om våre tjenester og hvordan vi kan hjelpe deg med dine elektriske behov.</p>
       </div>
-      <div className="electrician-container">
-        <img src={electrician} alt="Electrician" className="electrician" />
-      </div>
       </div>
     </>
   )

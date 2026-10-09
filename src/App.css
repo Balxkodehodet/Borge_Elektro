@@ -75,6 +75,13 @@
   color: #333;
 }
 
+.footer
+{
+  padding: 10px;
+  background-color: #999999;
+  color: #333;
+  text-align: center;
+}
 @media (max-width: 768px) {
  .logo
 {
@@ -94,5 +101,13 @@
   height: 100px;
   border-radius: 20px;
   border: 2px solid #020708;
+}
+.footer
+{
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #00c1fc;
+  color: #333;
+  text-align: center;
 }
 }
