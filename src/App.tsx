@@ -1,5 +1,5 @@
 import './App.css'
-function App() {
+function App(): React.JSX.Element {
 
   return (
     <>

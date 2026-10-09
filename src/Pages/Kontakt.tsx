@@ -1,4 +1,4 @@
-export default function Kontakt() {
+export default function Kontakt(): React.JSX.Element {
     return (
         <div className="kontakt-page">
             <h1>Kontakt oss</h1>

@@ -3,7 +3,7 @@ import borge_elektro_img from '../assets/borge_elektro_img.png';
 import electrician from '../assets/electrician.jpg';
 import '../App.css'
 
-export default function LayoutLandingpage() {
+export default function LayoutLandingpage(): React.JSX.Element {
   return (
     <>
     <header className="layout-landingpage">

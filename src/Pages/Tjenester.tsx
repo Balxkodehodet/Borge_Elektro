@@ -1,4 +1,4 @@
-export default function Tjenester() {
+export default function Tjenester(): React.JSX.Element {
     return (
         <div className="tjenester-page">
             <h1>Tjenester</h1>
